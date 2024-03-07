@@ -1,0 +1,5 @@
+FROM node:alpine
+COPY . /part-b
+CMD node /part-b/swapnil.js
+
+
